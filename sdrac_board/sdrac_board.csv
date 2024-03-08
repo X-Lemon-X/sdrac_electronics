@@ -1,0 +1,73 @@
+Comment,Designator,Footprint,LCSC Part #,Qty
+"STEPER_MOTOR_BREAKOUT Pololu Breakout Board, Stepper Driver A4988",A1,Pololu_Breakout-16_15.2x20.3mm,,1
+100n Unpolarized capacitor,"C1,C4,C5,C6,C7,C11,C36,C39,C40,C41,C43",C_0402_1005Metric,,11
+12p Unpolarized capacitor,"C2,C3",C_0402_1005Metric,,2
+1u Unpolarized capacitor,C8,C_0603_1608Metric,,1
+4.7u Unpolarized capacitor,C9,C_0603_1608Metric,,1
+10u Unpolarized capacitor,"C10,C22,C24,C25,C27,C29",C_0805_2012Metric,,6
+100n Unpolarized capacitor,"C12,C20,C23,C26,C28",C_0603_1608Metric,,5
+1n Unpolarized capacitor,C13,C_0603_1608Metric,,1
+10u Unpolarized capacitor,"C14,C15,C16,C35,C45,C46",C_1210_3225Metric,,6
+100n Unpolarized capacitor,C17,R_0603_1608Metric,,1
+0.033u Unpolarized capacitor,C18,R_0603_1608Metric,,1
+10u Unpolarized capacitor,C19,C_1206_3216Metric,,1
+100p Unpolarized capacitor,C21,C_0603_1608Metric,,1
+100n Unpolarized capacitor,"C30,C31",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,2
+1n Unpolarized capacitor,C32,C_0402_1005Metric,,1
+1n Unpolarized capacitor,C33,C_1206_3216Metric,,1
+68u Polarized capacitor,"C34,C44",CP_Elec_10x10,,2
+100n Unpolarized capacitor,"C37,C38",C_1206_3216Metric,,2
+10n Unpolarized capacitor,C42,C_0805_2012Metric,,1
+4.7u Unpolarized capacitor,C47,C_0402_1005Metric,,1
+D_Schottky Schottky diode,"D1,D2",D_SMA,,2
+USR_LED1 Light emitting diode,D3,D_0603_1608Metric,,1
+USR_LED2 Light emitting diode,D4,D_0603_1608Metric,,1
+LED_RXD Light emitting diode,D5,D_0603_1608Metric,,1
+LED_TXD Light emitting diode,D6,D_0603_1608Metric,,1
+HV_PWR Light emitting diode,D7,D_0603_1608Metric,,1
+LV_PWR Light emitting diode,D8,D_0603_1608Metric,,1
+"SS34 3000mW Zener Diode, SMC(DO-214AB)",D10,D_SMC,,1
+FerriteBead Ferrite bead,FB1,L_0805_2012Metric,,1
+Fiducial Fiducial Marker,"FID1,FID2,FID3",Fiducial_1mm_Mask2mm,,3
+MountingHole Mounting Hole without connection,"H1,H2,H3,H4",MountingHole_3.2mm_M3_ISO7380,,4
+"LMR16030PDDA SIMPLE SWITCHER 60V, 3A Step-Down Converter with 40uA Iq",IC2,SOIC127P600X170-9N,,1
+"SWD Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J1,PinHeader_1x03_P2.54mm_Vertical,,1
+"Conn_01x02_Male Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,,1
+"Conn_01x02_Female Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J3,AMASS_XT30PW-F_1x02_P2.50mm_Horizontal,,1
+"STEPER_DRIVER_CONTROL Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J4,Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical,,1
+"STEPER_DRIVER_MOTOR_OUT Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J5,Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical,,1
+USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J6,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,,1
+"Conn_01x02 Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)","J7,J8",Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,,2
+"Mag_enc Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J9,Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,,1
+"Pos_zero_sens Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J10,Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,,1
+12u Inductor,L1,L_1812_4532Metric,,1
+10u Inductor,L2,L_12x12mm_H8mm,,1
+10k Resistor,"R1,R2,R4,R5,R7,R10,R11,R17",R_0402_1005Metric,,8
+1k Resistor,"R3,R8,R12,R13,R18,R34,R35",R_0402_1005Metric,,7
+4k7 Resistor,"R6,R9",R_0402_1005Metric,,2
+120R Resistor,R14,R_0603_1608Metric,,1
+100k Resistor,R15,R_0603_1608Metric,,1
+10k Resistor,R16,R_0603_1608Metric,,1
+430k Resistor,R19,R_0603_1608Metric,,1
+86.6k Resistor,R20,R_0603_1608Metric,,1
+60.4k Resistor,R21,R_0603_1608Metric,,1
+5.1 Resistor,"R22,R23",R_0603_1608Metric,,2
+43k Resistor,R24,R_0603_1608Metric,,1
+7.5k Resistor,R25,R_0603_1608Metric,,1
+33k Resistor,R26,R_0603_1608Metric,,1
+5k1 Resistor,"R27,R28",R_0402_1005Metric,,2
+22R Resistor,"R29,R30",R_0402_1005Metric,,2
+100k Resistor,"R31,R32,R33",R_0402_1005Metric,,3
+"BOOT0 Push button switch, generic, two pins",SW1,SW_SPST_PTS810,,1
+"NRST Push button switch, generic, two pins",SW2,SW_SPST_PTS810,,1
+"USR_BTN Push button switch, generic, two pins",SW3,SW_SPST_PTS810,,1
+"SW_DIP_x01 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW4,SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile,,1
+FM24CL16B ,U1,SOIC-8_3.9x4.9mm_P1.27mm,,1
+"STM32F412RGT6 STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 256KB RAM, 100 MHz, 1.7-3.6V, 50 GPIO, LQFP64",U2,LQFP-64_10x10mm_P0.5mm,,1
+"SN65HVD232 CAN Bus Transceivers, 3.3V, 1Mbps, SOIC-8",U3,SOIC-8_3.9x4.9mm_P1.27mm,,1
+"CAN Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","U4,U5",Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical,,2
+"AZ1117-3.3 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",U6,SOT-223-3_TabPin2,,1
+"SN74LV1T34DBV Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5","U7,U8,U9",SOT-23-5,,3
+"USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U10,SOT-23-6,,1
+"MCP9700AT-ETT Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3",U11,SOT-23,,1
+"16MHz Four pin crystal, GND on pins 2 and 4",Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,,1
