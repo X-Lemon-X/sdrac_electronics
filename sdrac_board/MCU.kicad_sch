@@ -2421,7 +2421,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23f80ed9-bedb-457d-b34e-11adb42ca62d)
   )
-  (text "Timer3 Ch1 PWM OUT" (at 189.23 71.12 0)
+  (text "Timer3 Ch1 PWM OUT" (at 189.23 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31c30a96-e0bb-4f11-911f-9f3efd71bfa0)
   )
