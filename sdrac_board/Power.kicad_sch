@@ -1655,7 +1655,7 @@
   (symbol (lib_id "Device:L") (at 119.38 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01ed1896-483f-4749-b410-ea25d167ca05)
-    (property "Reference" "L2" (at 119.38 53.34 90)
+    (property "Reference" "L1" (at 119.38 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22u" (at 119.38 57.15 90)
@@ -1672,7 +1672,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "L2") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -1681,7 +1681,7 @@
   (symbol (lib_id "Device:C") (at 124.46 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a134fba-8784-46c8-987a-aaa62a6898b6)
-    (property "Reference" "C49" (at 124.46 60.96 0)
+    (property "Reference" "C24" (at 124.46 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 124.46 66.04 0)
@@ -1698,7 +1698,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C49") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1707,7 +1707,7 @@
   (symbol (lib_id "Device:C") (at 85.09 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bdd9c70-724a-4045-8bbe-a004c3a2095b)
-    (property "Reference" "C15" (at 85.09 109.22 0)
+    (property "Reference" "C28" (at 85.09 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 85.09 114.3 0)
@@ -1724,7 +1724,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C15") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "motor controller"
@@ -1738,7 +1738,7 @@
   (symbol (lib_id "Device:C") (at 92.71 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12f15c08-8588-4ab9-abce-2d802bb9300e)
-    (property "Reference" "C16" (at 92.71 109.22 0)
+    (property "Reference" "C29" (at 92.71 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 92.71 114.3 0)
@@ -1755,7 +1755,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C16") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "motor controller"
@@ -1769,7 +1769,7 @@
   (symbol (lib_id "power:GND") (at 72.39 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 189f5649-d4ed-4d13-b8c0-36f782b2f5a1)
-    (property "Reference" "#PWR037" (at 72.39 195.58 0)
+    (property "Reference" "#PWR061" (at 72.39 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 193.04 0)
@@ -1785,7 +1785,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "motor controller"
@@ -1830,7 +1830,7 @@
   (symbol (lib_id "Device:C") (at 69.85 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 245856ca-8a26-4aca-a7ff-7ee22fd32e99)
-    (property "Reference" "C12" (at 69.85 109.22 0)
+    (property "Reference" "C26" (at 69.85 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 69.85 114.3 0)
@@ -1847,7 +1847,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C12") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "motor controller"
@@ -1861,7 +1861,7 @@
   (symbol (lib_id "Device:C") (at 170.18 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24ec99f6-85eb-447e-8aee-3cb40583aa9c)
-    (property "Reference" "C20" (at 170.18 58.42 0)
+    (property "Reference" "C18" (at 170.18 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 170.18 63.5 0)
@@ -1878,7 +1878,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C20") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "motor controller"
@@ -1892,7 +1892,7 @@
   (symbol (lib_id "power:VDC") (at 132.08 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 280e6d39-f556-4bcc-a8b3-eb5e1a6fe4cf)
-    (property "Reference" "#PWR038" (at 132.08 55.88 0)
+    (property "Reference" "#PWR037" (at 132.08 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (at 132.08 49.53 0)
@@ -1908,7 +1908,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "motor controller"
@@ -1922,7 +1922,7 @@
   (symbol (lib_id "Device:R") (at 102.87 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a015565-e008-4364-8437-31f718100697)
-    (property "Reference" "R19" (at 104.14 109.22 0)
+    (property "Reference" "R20" (at 104.14 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "430k" (at 104.14 111.76 0)
@@ -1939,7 +1939,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "motor controller"
@@ -1953,7 +1953,7 @@
   (symbol (lib_id "power:VDC") (at 57.15 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a9664da-01e5-404b-b606-866c0d9f8e4d)
-    (property "Reference" "#PWR078" (at 57.15 109.22 0)
+    (property "Reference" "#PWR045" (at 57.15 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (at 57.15 102.87 0)
@@ -1969,7 +1969,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1978,7 +1978,7 @@
   (symbol (lib_id "power:GND") (at 234.95 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ad36ab4-8b38-4075-90c4-a408cbbc096f)
-    (property "Reference" "#PWR051" (at 234.95 152.4 0)
+    (property "Reference" "#PWR055" (at 234.95 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 149.86 0)
@@ -1994,7 +1994,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
       (project "motor controller"
@@ -2008,7 +2008,7 @@
   (symbol (lib_id "Device:R") (at 193.04 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2da36266-0ae6-4ca7-afa9-f1c459616cae)
-    (property "Reference" "R23" (at 194.31 113.03 0)
+    (property "Reference" "R21" (at 194.31 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1" (at 194.31 115.57 0)
@@ -2025,7 +2025,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R23") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "motor controller"
@@ -2039,7 +2039,7 @@
   (symbol (lib_id "power:GND") (at 193.04 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2db51dad-7ed5-4f43-a1bc-1b363341ca6f)
-    (property "Reference" "#PWR046" (at 193.04 137.16 0)
+    (property "Reference" "#PWR054" (at 193.04 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 134.62 0)
@@ -2055,7 +2055,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
       (project "motor controller"
@@ -2069,7 +2069,7 @@
   (symbol (lib_id "power:+3V3") (at 72.39 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e2beec1-093c-43d0-b9c2-ba3bf54da271)
-    (property "Reference" "#PWR036" (at 72.39 173.99 0)
+    (property "Reference" "#PWR058" (at 72.39 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 72.39 166.37 0)
@@ -2085,7 +2085,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "motor controller"
@@ -2099,7 +2099,7 @@
   (symbol (lib_id "power:+5V") (at 161.29 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c63c0e9-b230-443f-9137-9f8849ba136f)
-    (property "Reference" "#PWR045" (at 161.29 58.42 0)
+    (property "Reference" "#PWR039" (at 161.29 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 161.29 50.8 0)
@@ -2115,7 +2115,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "motor controller"
@@ -2129,7 +2129,7 @@
   (symbol (lib_id "Device:R") (at 102.87 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45bde20f-675c-43e0-98c9-b21e7329c29b)
-    (property "Reference" "R20" (at 104.14 118.11 0)
+    (property "Reference" "R22" (at 104.14 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "86.6k" (at 104.14 120.65 0)
@@ -2146,7 +2146,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R20") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "motor controller"
@@ -2160,7 +2160,7 @@
   (symbol (lib_id "power:GND") (at 115.57 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46bc7412-a0ca-430a-8d37-efda071bf49b)
-    (property "Reference" "#PWR041" (at 115.57 135.89 0)
+    (property "Reference" "#PWR052" (at 115.57 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 133.35 0)
@@ -2176,7 +2176,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "motor controller"
@@ -2190,7 +2190,7 @@
   (symbol (lib_id "power:GND") (at 142.24 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e9ff885-5dae-49e5-bc07-a6a3b9469ca5)
-    (property "Reference" "#PWR042" (at 142.24 135.89 0)
+    (property "Reference" "#PWR053" (at 142.24 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 133.35 0)
@@ -2206,7 +2206,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "motor controller"
@@ -2220,7 +2220,7 @@
   (symbol (lib_id "Device:C") (at 114.3 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50305e66-7801-463f-bdce-73a6c9c06bda)
-    (property "Reference" "C48" (at 114.3 60.96 0)
+    (property "Reference" "C23" (at 114.3 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 114.3 66.04 0)
@@ -2237,7 +2237,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C48") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -2276,7 +2276,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 97.79 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58ba931b-ddd3-4643-ab27-5903b854f8f3)
-    (property "Reference" "C44" (at 97.79 58.42 0)
+    (property "Reference" "C16" (at 97.79 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 97.79 63.5 0)
@@ -2293,7 +2293,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C44") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -2302,7 +2302,7 @@
   (symbol (lib_id "Device:C") (at 163.83 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 645e4909-fd5c-49c0-a932-e704e043462f)
-    (property "Reference" "C19" (at 163.83 58.42 0)
+    (property "Reference" "C17" (at 163.83 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 163.83 63.5 0)
@@ -2319,7 +2319,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C19") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "motor controller"
@@ -2333,7 +2333,7 @@
   (symbol (lib_id "Device:C") (at 212.09 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65aefbf3-86b8-4b12-8aa9-1c4cfe670a4f)
-    (property "Reference" "C24" (at 212.09 115.57 0)
+    (property "Reference" "C31" (at 212.09 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 212.09 120.65 0)
@@ -2350,7 +2350,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C24") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "motor controller"
@@ -2364,7 +2364,7 @@
   (symbol (lib_id "Device:LED") (at 72.39 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68da1e77-f2ec-47c1-a1d3-588bec61a364)
-    (property "Reference" "D8" (at 74.93 181.61 90)
+    (property "Reference" "D9" (at 74.93 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LV_PWR" (at 74.93 184.15 90)
@@ -2384,7 +2384,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "motor controller"
@@ -2398,7 +2398,7 @@
   (symbol (lib_id "power:+3V3") (at 215.9 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e5df16a-e600-4af4-990f-0f03ac91290a)
-    (property "Reference" "#PWR049" (at 215.9 58.42 0)
+    (property "Reference" "#PWR040" (at 215.9 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 215.9 49.53 0)
@@ -2414,7 +2414,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "motor controller"
@@ -2428,7 +2428,7 @@
   (symbol (lib_id "Device:R") (at 72.39 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7899f615-b944-4543-bdf9-1738d16bd02a)
-    (property "Reference" "R18" (at 73.66 173.99 0)
+    (property "Reference" "R28" (at 73.66 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 73.66 176.53 0)
@@ -2445,7 +2445,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R18") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "motor controller"
@@ -2459,7 +2459,7 @@
   (symbol (lib_id "Device:R") (at 115.57 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78dfd4eb-e734-4753-a544-d17d1472461d)
-    (property "Reference" "R21" (at 116.84 124.46 0)
+    (property "Reference" "R23" (at 116.84 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60.4k" (at 116.84 127 0)
@@ -2476,7 +2476,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R21") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "motor controller"
@@ -2490,7 +2490,7 @@
   (symbol (lib_id "LMR16030PDDA:LMR16030PDDA") (at 121.92 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c47d843-23b3-4668-80bf-7437e21822f2)
-    (property "Reference" "IC2" (at 142.24 101.6 0)
+    (property "Reference" "IC1" (at 142.24 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR16030PDDA" (at 142.24 104.14 0)
@@ -2535,7 +2535,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "IC2") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
@@ -2544,7 +2544,7 @@
   (symbol (lib_id "power:GND") (at 168.91 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fecc829-bd7e-4cee-b39d-54df05213027)
-    (property "Reference" "#PWR043" (at 168.91 134.62 0)
+    (property "Reference" "#PWR050" (at 168.91 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 132.08 0)
@@ -2560,7 +2560,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "motor controller"
@@ -2574,7 +2574,7 @@
   (symbol (lib_id "Device:C") (at 200.66 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84158319-2bba-46ae-a58e-679de5db1d08)
-    (property "Reference" "C25" (at 200.66 58.42 0)
+    (property "Reference" "C20" (at 200.66 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 200.66 63.5 0)
@@ -2591,7 +2591,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C25") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "motor controller"
@@ -2605,7 +2605,7 @@
   (symbol (lib_id "Device:L") (at 198.12 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84b3be07-a6a4-4d06-9e68-d13e1ffbc10b)
-    (property "Reference" "L1" (at 198.12 106.68 90)
+    (property "Reference" "L2" (at 198.12 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12u" (at 198.12 110.49 90)
@@ -2622,7 +2622,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
       (project "motor controller"
@@ -2636,7 +2636,7 @@
   (symbol (lib_id "power:GND") (at 69.85 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8687b03a-acbb-4b25-bf16-1c3e8fce1346)
-    (property "Reference" "#PWR035" (at 69.85 129.54 0)
+    (property "Reference" "#PWR048" (at 69.85 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 127 0)
@@ -2652,7 +2652,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "motor controller"
@@ -2666,7 +2666,7 @@
   (symbol (lib_id "Device:C") (at 130.81 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 937bbb41-c01b-407b-9900-9ecf7b3da8ab)
-    (property "Reference" "C17" (at 128.27 96.52 0)
+    (property "Reference" "C25" (at 128.27 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 133.35 96.52 0)
@@ -2683,7 +2683,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C17") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "motor controller"
@@ -2697,7 +2697,7 @@
   (symbol (lib_id "Device:R") (at 143.51 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96a67917-b277-4c2a-824d-58abb02c89b8)
-    (property "Reference" "R22" (at 142.24 95.25 0)
+    (property "Reference" "R19" (at 142.24 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1" (at 144.78 95.25 0)
@@ -2714,7 +2714,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R22") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "motor controller"
@@ -2789,7 +2789,7 @@
   (symbol (lib_id "power:GND") (at 114.3 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf626ef-e801-464a-9cdd-b141cfe6ae5f)
-    (property "Reference" "#PWR086" (at 114.3 76.2 0)
+    (property "Reference" "#PWR043" (at 114.3 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 73.66 0)
@@ -2805,7 +2805,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2814,7 +2814,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 83.82 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2b0cfd9-3cfe-4439-8cd1-170b4f1c5965)
-    (property "Reference" "C34" (at 83.82 58.42 0)
+    (property "Reference" "C15" (at 83.82 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 83.82 63.5 0)
@@ -2831,7 +2831,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C34") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2840,7 +2840,7 @@
   (symbol (lib_id "Device:C") (at 218.44 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6e6b19f-23d3-46dc-a25f-77d7736a4cc3)
-    (property "Reference" "C26" (at 218.44 115.57 0)
+    (property "Reference" "C32" (at 218.44 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 218.44 120.65 0)
@@ -2857,7 +2857,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C26") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "motor controller"
@@ -2871,7 +2871,7 @@
   (symbol (lib_id "power:+5V") (at 234.95 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaa8e423-60e4-4a90-9939-596733c661cb)
-    (property "Reference" "#PWR050" (at 234.95 111.76 0)
+    (property "Reference" "#PWR046" (at 234.95 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 234.95 104.14 0)
@@ -2887,7 +2887,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "motor controller"
@@ -2901,7 +2901,7 @@
   (symbol (lib_id "Device:C") (at 204.47 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae4202de-b7db-441e-8d3e-77570473e73f)
-    (property "Reference" "C22" (at 204.47 115.57 0)
+    (property "Reference" "C30" (at 204.47 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 204.47 120.65 0)
@@ -2918,7 +2918,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C22") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "motor controller"
@@ -2932,7 +2932,7 @@
   (symbol (lib_id "power:GND") (at 99.06 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af4554e2-8d96-495a-807b-8c9575ff8ac9)
-    (property "Reference" "#PWR039" (at 99.06 195.58 0)
+    (property "Reference" "#PWR062" (at 99.06 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 193.04 0)
@@ -2948,7 +2948,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "motor controller"
@@ -2962,7 +2962,7 @@
   (symbol (lib_id "power:VCC") (at 30.48 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04f7859-76e9-437b-a1be-cdb1b863ca56)
-    (property "Reference" "#PWR083" (at 30.48 172.72 0)
+    (property "Reference" "#PWR056" (at 30.48 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 30.48 163.83 0)
@@ -2978,7 +2978,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -2987,7 +2987,7 @@
   (symbol (lib_id "Device:C") (at 226.06 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0c13711-2706-45ae-b19a-0a5feec495d5)
-    (property "Reference" "C28" (at 226.06 115.57 0)
+    (property "Reference" "C33" (at 226.06 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 226.06 120.65 0)
@@ -3004,7 +3004,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C28") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "motor controller"
@@ -3018,7 +3018,7 @@
   (symbol (lib_id "Device:C") (at 215.9 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b32fc976-52f6-4b1e-a3fd-d119b6c5791e)
-    (property "Reference" "C29" (at 215.9 58.42 0)
+    (property "Reference" "C22" (at 215.9 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 215.9 63.5 0)
@@ -3035,7 +3035,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C29") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "motor controller"
@@ -3049,7 +3049,7 @@
   (symbol (lib_id "Device:C") (at 77.47 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4a25985-8b2f-4fa9-bc1b-70be684b8e40)
-    (property "Reference" "C13" (at 77.47 109.22 0)
+    (property "Reference" "C27" (at 77.47 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 77.47 114.3 0)
@@ -3066,7 +3066,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C13") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "motor controller"
@@ -3080,7 +3080,7 @@
   (symbol (lib_id "power:GND") (at 53.34 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b562930d-3586-402f-9fa2-47a5edc6d78b)
-    (property "Reference" "#PWR032" (at 53.34 45.72 0)
+    (property "Reference" "#PWR036" (at 53.34 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 48.26 0)
@@ -3096,7 +3096,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "motor controller"
@@ -3110,7 +3110,7 @@
   (symbol (lib_id "power:GND") (at 30.48 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbb25392-8826-407d-9ef8-7b36ec627f40)
-    (property "Reference" "#PWR031" (at 30.48 195.58 0)
+    (property "Reference" "#PWR059" (at 30.48 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 193.04 0)
@@ -3126,7 +3126,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "motor controller"
@@ -3140,7 +3140,7 @@
   (symbol (lib_id "power:GND") (at 97.79 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc89899a-bad2-44b8-85cc-0389b0e4ec2e)
-    (property "Reference" "#PWR085" (at 97.79 74.93 0)
+    (property "Reference" "#PWR042" (at 97.79 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 72.39 0)
@@ -3156,7 +3156,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3165,7 +3165,7 @@
   (symbol (lib_id "Device:R") (at 57.15 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdc8a56b-7954-498c-8c9b-3a8c346f0561)
-    (property "Reference" "R17" (at 58.42 173.99 0)
+    (property "Reference" "R27" (at 58.42 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 58.42 176.53 0)
@@ -3182,7 +3182,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R17") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "motor controller"
@@ -3196,7 +3196,7 @@
   (symbol (lib_id "power:VCC") (at 105.41 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be1a1084-e56d-43e5-a069-36c867b5b276)
-    (property "Reference" "#PWR057" (at 105.41 58.42 0)
+    (property "Reference" "#PWR038" (at 105.41 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 105.41 49.53 0)
@@ -3212,7 +3212,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3221,7 +3221,7 @@
   (symbol (lib_id "Diode:Z3SMCxxx") (at 181.61 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2270a97-3569-4f02-bea6-566e9934c482)
-    (property "Reference" "D10" (at 184.15 118.11 90)
+    (property "Reference" "D7" (at 184.15 118.11 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SS34" (at 182.88 123.19 90)
@@ -3238,7 +3238,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "D10") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3247,7 +3247,7 @@
   (symbol (lib_id "power:GND") (at 53.34 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4345f51-4bdd-49b3-83ae-5e891a83637f)
-    (property "Reference" "#PWR033" (at 53.34 62.23 0)
+    (property "Reference" "#PWR041" (at 53.34 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 64.77 0)
@@ -3263,7 +3263,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "motor controller"
@@ -3277,7 +3277,7 @@
   (symbol (lib_id "power:GND") (at 181.61 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4d5d4a2-666f-4d7a-bb2b-4b6ec6349085)
-    (property "Reference" "#PWR047" (at 181.61 85.09 0)
+    (property "Reference" "#PWR044" (at 181.61 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 82.55 0)
@@ -3293,7 +3293,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "motor controller"
@@ -3307,7 +3307,7 @@
   (symbol (lib_id "power:GND") (at 57.15 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c671fd39-1945-453b-a4ce-42af49298ced)
-    (property "Reference" "#PWR034" (at 57.15 195.58 0)
+    (property "Reference" "#PWR060" (at 57.15 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 193.04 0)
@@ -3323,7 +3323,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "motor controller"
@@ -3337,7 +3337,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 44.45 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb4e8943-04e6-4992-b052-deb563ba8e8e)
-    (property "Reference" "J2" (at 45.72 58.42 0)
+    (property "Reference" "J4" (at 45.72 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Male" (at 45.085 50.8 0)
@@ -3354,7 +3354,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "motor controller"
@@ -3368,7 +3368,7 @@
   (symbol (lib_id "Device:R") (at 30.48 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce4803e9-64bb-4065-98aa-12a576b36c95)
-    (property "Reference" "R15" (at 31.75 172.72 0)
+    (property "Reference" "R26" (at 31.75 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 31.75 175.26 0)
@@ -3385,7 +3385,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R15") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "motor controller"
@@ -3399,7 +3399,7 @@
   (symbol (lib_id "Device:C") (at 168.91 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d01fb62e-cf10-4b95-ba3f-81773cb4e51f)
-    (property "Reference" "C18" (at 168.91 119.38 0)
+    (property "Reference" "C34" (at 168.91 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.033u" (at 168.91 124.46 0)
@@ -3416,7 +3416,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C18") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
       (project "motor controller"
@@ -3430,7 +3430,7 @@
   (symbol (lib_id "Device:C") (at 193.04 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d04c3a51-edaa-4afa-ab71-a03ec336fe34)
-    (property "Reference" "C21" (at 193.04 119.38 0)
+    (property "Reference" "C35" (at 193.04 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 193.04 124.46 0)
@@ -3447,7 +3447,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C21") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
       (project "motor controller"
@@ -3461,7 +3461,7 @@
   (symbol (lib_id "power:GND") (at 226.06 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d10ebaee-d6fb-4216-a0c6-5ecc26aae831)
-    (property "Reference" "#PWR048" (at 226.06 129.54 0)
+    (property "Reference" "#PWR049" (at 226.06 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 127 0)
@@ -3477,7 +3477,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "motor controller"
@@ -3491,7 +3491,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 44.45 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d38b6b37-db15-4fb5-8588-54f8ea996d19)
-    (property "Reference" "J3" (at 45.72 74.93 0)
+    (property "Reference" "J5" (at 45.72 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Female" (at 45.085 67.31 0)
@@ -3508,7 +3508,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "motor controller"
@@ -3522,7 +3522,7 @@
   (symbol (lib_id "Device:C") (at 193.04 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de58ac91-2458-47e0-bf0f-b3bda9ef1a04)
-    (property "Reference" "C23" (at 193.04 58.42 0)
+    (property "Reference" "C19" (at 193.04 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 193.04 63.5 0)
@@ -3539,7 +3539,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C23") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "motor controller"
@@ -3553,7 +3553,7 @@
   (symbol (lib_id "power:GND") (at 171.45 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5418849-6f7d-4c02-8313-3d5c90db089a)
-    (property "Reference" "#PWR044" (at 171.45 118.11 0)
+    (property "Reference" "#PWR047" (at 171.45 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 115.57 0)
@@ -3569,7 +3569,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "motor controller"
@@ -3583,7 +3583,7 @@
   (symbol (lib_id "Device:LED") (at 57.15 184.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9f79f9b-32c2-4088-a411-b6d5e4b40a20)
-    (property "Reference" "D7" (at 59.69 181.61 90)
+    (property "Reference" "D8" (at 59.69 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "HV_PWR" (at 59.69 184.15 90)
@@ -3603,7 +3603,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "motor controller"
@@ -3617,7 +3617,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 175.26 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f07fbbfe-4f9a-45cc-869f-be481043bf83)
-    (property "Reference" "#FLG06" (at 175.26 107.315 0)
+    (property "Reference" "#FLG04" (at 175.26 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 175.26 105.41 0)
@@ -3633,7 +3633,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
       (project "motor controller"
@@ -3647,7 +3647,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 99.06 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f342b3ff-4402-4c32-afde-700c45f509c6)
-    (property "Reference" "#FLG04" (at 99.06 104.775 0)
+    (property "Reference" "#FLG03" (at 99.06 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 99.06 102.87 0)
@@ -3663,7 +3663,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
       (project "motor controller"
@@ -3677,7 +3677,7 @@
   (symbol (lib_id "power:VCC") (at 57.15 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b6ef64-eff3-45d9-8c7f-d83a20cea292)
-    (property "Reference" "#PWR084" (at 57.15 172.72 0)
+    (property "Reference" "#PWR057" (at 57.15 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 57.15 163.83 0)
@@ -3693,7 +3693,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -3702,7 +3702,7 @@
   (symbol (lib_id "power:GND") (at 102.87 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa93cfe6-5f20-4efd-8b40-ae1929534096)
-    (property "Reference" "#PWR040" (at 102.87 135.89 0)
+    (property "Reference" "#PWR051" (at 102.87 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 133.35 0)
@@ -3718,7 +3718,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "motor controller"
@@ -3732,7 +3732,7 @@
   (symbol (lib_id "Device:R") (at 30.48 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcf8c58c-178b-4858-a14d-00077ba82c03)
-    (property "Reference" "R16" (at 31.75 182.88 0)
+    (property "Reference" "R29" (at 31.75 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 31.75 185.42 0)
@@ -3749,7 +3749,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "R16") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "motor controller"
@@ -3763,7 +3763,7 @@
   (symbol (lib_id "Device:C") (at 208.28 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffc9c407-98d6-4796-b0f1-ec561c3e652a)
-    (property "Reference" "C27" (at 208.28 58.42 0)
+    (property "Reference" "C21" (at 208.28 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 208.28 63.5 0)
@@ -3780,7 +3780,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8/2b9840a5-d2ef-446d-a8a9-f40bc330218c"
-          (reference "C27") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "motor controller"

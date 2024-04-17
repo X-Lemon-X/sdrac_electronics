@@ -338,7 +338,7 @@
   (symbol (lib_id "power:+5V") (at 24.13 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 485a1e0e-da30-4322-89c9-16992204be46)
-    (property "Reference" "#PWR01" (at 24.13 132.08 0)
+    (property "Reference" "#PWR02" (at 24.13 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 24.13 124.46 0)
@@ -354,7 +354,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "motor controller"
@@ -440,7 +440,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 260.35 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 959fe157-9e6f-4815-ac93-17a1f5dc5b6e)
-    (property "Reference" "D2" (at 260.35 86.36 0)
+    (property "Reference" "D1" (at 260.35 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 260.35 81.28 0)
@@ -457,7 +457,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "motor controller"
@@ -471,7 +471,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 29.21 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4d5f89d-3f8e-40c1-83e1-6988173d095d)
-    (property "Reference" "D1" (at 29.21 127 0)
+    (property "Reference" "D2" (at 29.21 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 29.21 132.08 0)
@@ -488,7 +488,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "motor controller"
@@ -526,7 +526,7 @@
   (symbol (lib_id "power:+5V") (at 266.7 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c13fa188-476c-4393-9d9c-016db6e102e9)
-    (property "Reference" "#PWR02" (at 266.7 83.82 0)
+    (property "Reference" "#PWR01" (at 266.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 266.7 76.2 0)
@@ -542,7 +542,7 @@
     (instances
       (project "sdrac_board"
         (path "/7e6d1db5-12f1-49d6-b3bd-d624ec5345e8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "motor controller"
