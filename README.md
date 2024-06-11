@@ -3,7 +3,7 @@
 This repository contains the psb schematics and designs of the SDRAC board.
 
 ## SDRACboard
-- the supply voltage is 12-48V
+- Supply voltage 12-48V
 - the board has a 5V/2A on board regualator, to power the board and peripherals
 - USB-C for programming and reading data
 - ST-wire pins for programming and debugging
@@ -11,11 +11,11 @@ This repository contains the psb schematics and designs of the SDRAC board.
 - 6 pin JS connector for IO-appliacitons, with analog, UART, Timers, 5V and GND
 - 2x 4 pin Molex connectors for CAN bus
 - 2x 6 pin Molex connectors for I2C magnetic encoder
-- 2x 2 pin Molex connectors for external termistors
+- 2x 2 pin Molex connectors for external temperature sensors (ntc termistors)
 - 1x 4 pin Molex connector for stepper motor
 - 1x 4 pin connector for external steper motor driver
 - 1x Screw terminal for external steper motor driver power
-- 2x XT30 connectors for external power
+- XT30-M, XT30-F  connectors for input and output power
 
 ![img](img/pc_top.png)
 ![img](img/pc_bot.png)
