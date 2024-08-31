@@ -24,4 +24,4 @@ This repository contains the psb schematics and designs of the SDRAC board.
 The schematics are made in KiCad.
 
 ## Assembly
-Manual assembly takes about 4 hours, with stemple and hot air station.
+Manual assembly takes about 2 hours, with stemple and hot air station.
