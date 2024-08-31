@@ -3,7 +3,7 @@
 This repository contains the psb schematics and designs of the SDRAC board.
 
 ## SDRACboard
-- Supply voltage 12-48V
+- Supply voltage 12-48V (9-55V)
 - the board has a 5V/2A on board regualator, to power the board and peripherals
 - USB-C for programming and reading data
 - ST-wire pins for programming and debugging
