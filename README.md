@@ -3,7 +3,7 @@
 This repository contains the psb schematics and designs of the SDRAC board.
 
 ## SDRACboard
-- Supply voltage 12-48V
+- Supply voltage 12-48V (9-55V)
 - the board has a 5V/2A on board regualator, to power the board and peripherals
 - USB-C for programming and reading data
 - ST-wire pins for programming and debugging
@@ -24,4 +24,4 @@ This repository contains the psb schematics and designs of the SDRAC board.
 The schematics are made in KiCad.
 
 ## Assembly
-Manual assembly takes about 4 hours, with stemple and hot air station.
+Manual assembly takes about 2 hours, with stemple and hot air station.
